@@ -1,0 +1,21 @@
+<body>
+    <!-- Your stuff -->
+<a id="left-menu" href="#left-menu">Left Menu</a> 
+ <div id="sidr-left">
+  <!-- Your content -->
+  <ul>
+    <li><a href="#">List 1</a></li>
+    <li class="active"><a href="#">List 2</a></li>
+    <li><a href="#">List 3</a></li>
+  </ul>
+</div>
+<script>
+$(document).ready(function() {
+    $('#left-menu').sidr({
+      name: 'sidr-left',
+      side: 'left' // By default
+    });
+});
+</script>
+ 
+</body>

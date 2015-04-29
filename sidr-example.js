@@ -1,8 +1,8 @@
 if (Meteor.isClient) {
   $(document).ready(function() {
-    $('#left-menu').sidr({
-      name: 'sidr-left',
-      side: 'left' // By default
-    });
-});
+      $('#left-menu').sidr({
+        name: 'sidr-left',
+        side: 'left' // By default
+      });
+  });
 }
